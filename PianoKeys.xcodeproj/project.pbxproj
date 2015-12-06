@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C44FFA4C1C14822F00481C91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C44FFA4B1C14822F00481C91 /* main.m */; };
+		C44FFA4F1C14822F00481C91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C44FFA4E1C14822F00481C91 /* AppDelegate.m */; };
+		C44FFA521C14822F00481C91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44FFA511C14822F00481C91 /* ViewController.m */; };
+		C44FFA551C14822F00481C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44FFA531C14822F00481C91 /* Main.storyboard */; };
+		C44FFA571C14822F00481C91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44FFA561C14822F00481C91 /* Images.xcassets */; };
+		C44FFA5A1C14822F00481C91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44FFA581C14822F00481C91 /* LaunchScreen.xib */; };
+		C44FFA661C14822F00481C91 /* PianoKeysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C44FFA651C14822F00481C91 /* PianoKeysTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C44FFA601C14822F00481C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44FFA3E1C14822F00481C91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44FFA451C14822F00481C91;
+			remoteInfo = PianoKeys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C44FFA461C14822F00481C91 /* PianoKeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoKeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44FFA4A1C14822F00481C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44FFA4B1C14822F00481C91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C44FFA4D1C14822F00481C91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C44FFA4E1C14822F00481C91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C44FFA501C14822F00481C91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C44FFA511C14822F00481C91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C44FFA541C14822F00481C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C44FFA561C14822F00481C91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C44FFA591C14822F00481C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C44FFA5F1C14822F00481C91 /* PianoKeysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoKeysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44FFA641C14822F00481C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44FFA651C14822F00481C91 /* PianoKeysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PianoKeysTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C44FFA431C14822F00481C91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44FFA5C1C14822F00481C91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C44FFA3D1C14822F00481C91 = {
+			isa = PBXGroup;
+			children = (
+				C44FFA481C14822F00481C91 /* PianoKeys */,
+				C44FFA621C14822F00481C91 /* PianoKeysTests */,
+				C44FFA471C14822F00481C91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C44FFA471C14822F00481C91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C44FFA461C14822F00481C91 /* PianoKeys.app */,
+				C44FFA5F1C14822F00481C91 /* PianoKeysTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44FFA481C14822F00481C91 /* PianoKeys */ = {
+			isa = PBXGroup;
+			children = (
+				C44FFA4D1C14822F00481C91 /* AppDelegate.h */,
+				C44FFA4E1C14822F00481C91 /* AppDelegate.m */,
+				C44FFA501C14822F00481C91 /* ViewController.h */,
+				C44FFA511C14822F00481C91 /* ViewController.m */,
+				C44FFA531C14822F00481C91 /* Main.storyboard */,
+				C44FFA561C14822F00481C91 /* Images.xcassets */,
+				C44FFA581C14822F00481C91 /* LaunchScreen.xib */,
+				C44FFA491C14822F00481C91 /* Supporting Files */,
+			);
+			path = PianoKeys;
+			sourceTree = "<group>";
+		};
+		C44FFA491C14822F00481C91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C44FFA4A1C14822F00481C91 /* Info.plist */,
+				C44FFA4B1C14822F00481C91 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C44FFA621C14822F00481C91 /* PianoKeysTests */ = {
+			isa = PBXGroup;
+			children = (
+				C44FFA651C14822F00481C91 /* PianoKeysTests.m */,
+				C44FFA631C14822F00481C91 /* Supporting Files */,
+			);
+			path = PianoKeysTests;
+			sourceTree = "<group>";
+		};
+		C44FFA631C14822F00481C91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C44FFA641C14822F00481C91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C44FFA451C14822F00481C91 /* PianoKeys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44FFA691C14822F00481C91 /* Build configuration list for PBXNativeTarget "PianoKeys" */;
+			buildPhases = (
+				C44FFA421C14822F00481C91 /* Sources */,
+				C44FFA431C14822F00481C91 /* Frameworks */,
+				C44FFA441C14822F00481C91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PianoKeys;
+			productName = PianoKeys;
+			productReference = C44FFA461C14822F00481C91 /* PianoKeys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C44FFA5E1C14822F00481C91 /* PianoKeysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44FFA6C1C14822F00481C91 /* Build configuration list for PBXNativeTarget "PianoKeysTests" */;
+			buildPhases = (
+				C44FFA5B1C14822F00481C91 /* Sources */,
+				C44FFA5C1C14822F00481C91 /* Frameworks */,
+				C44FFA5D1C14822F00481C91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C44FFA611C14822F00481C91 /* PBXTargetDependency */,
+			);
+			name = PianoKeysTests;
+			productName = PianoKeysTests;
+			productReference = C44FFA5F1C14822F00481C91 /* PianoKeysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C44FFA3E1C14822F00481C91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = mokoike;
+				TargetAttributes = {
+					C44FFA451C14822F00481C91 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C44FFA5E1C14822F00481C91 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C44FFA451C14822F00481C91;
+					};
+				};
+			};
+			buildConfigurationList = C44FFA411C14822F00481C91 /* Build configuration list for PBXProject "PianoKeys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C44FFA3D1C14822F00481C91;
+			productRefGroup = C44FFA471C14822F00481C91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44FFA451C14822F00481C91 /* PianoKeys */,
+				C44FFA5E1C14822F00481C91 /* PianoKeysTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C44FFA441C14822F00481C91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44FFA551C14822F00481C91 /* Main.storyboard in Resources */,
+				C44FFA5A1C14822F00481C91 /* LaunchScreen.xib in Resources */,
+				C44FFA571C14822F00481C91 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44FFA5D1C14822F00481C91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C44FFA421C14822F00481C91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44FFA521C14822F00481C91 /* ViewController.m in Sources */,
+				C44FFA4F1C14822F00481C91 /* AppDelegate.m in Sources */,
+				C44FFA4C1C14822F00481C91 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44FFA5B1C14822F00481C91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44FFA661C14822F00481C91 /* PianoKeysTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C44FFA611C14822F00481C91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44FFA451C14822F00481C91 /* PianoKeys */;
+			targetProxy = C44FFA601C14822F00481C91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C44FFA531C14822F00481C91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44FFA541C14822F00481C91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C44FFA581C14822F00481C91 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44FFA591C14822F00481C91 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C44FFA671C14822F00481C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C44FFA681C14822F00481C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C44FFA6A1C14822F00481C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PianoKeys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C44FFA6B1C14822F00481C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PianoKeys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C44FFA6D1C14822F00481C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PianoKeysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoKeys.app/PianoKeys";
+			};
+			name = Debug;
+		};
+		C44FFA6E1C14822F00481C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PianoKeysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoKeys.app/PianoKeys";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C44FFA411C14822F00481C91 /* Build configuration list for PBXProject "PianoKeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44FFA671C14822F00481C91 /* Debug */,
+				C44FFA681C14822F00481C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44FFA691C14822F00481C91 /* Build configuration list for PBXNativeTarget "PianoKeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44FFA6A1C14822F00481C91 /* Debug */,
+				C44FFA6B1C14822F00481C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C44FFA6C1C14822F00481C91 /* Build configuration list for PBXNativeTarget "PianoKeysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44FFA6D1C14822F00481C91 /* Debug */,
+				C44FFA6E1C14822F00481C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C44FFA3E1C14822F00481C91 /* Project object */;
+}
